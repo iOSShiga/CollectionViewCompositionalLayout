@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		D11661B223F71BEA008B4791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11661B123F71BEA008B4791 /* AppDelegate.swift */; };
 		D11661B423F71BEA008B4791 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11661B323F71BEA008B4791 /* SceneDelegate.swift */; };
-		D11661B623F71BEA008B4791 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11661B523F71BEA008B4791 /* ViewController.swift */; };
+		D11661B623F71BEA008B4791 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11661B523F71BEA008B4791 /* GridViewController.swift */; };
 		D11661B923F71BEA008B4791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11661B723F71BEA008B4791 /* Main.storyboard */; };
 		D11661BB23F71BEC008B4791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11661BA23F71BEC008B4791 /* Assets.xcassets */; };
 		D11661BE23F71BEC008B4791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11661BC23F71BEC008B4791 /* LaunchScreen.storyboard */; };
 		D11661C923F71BEC008B4791 /* CollectionViewCompositionalLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11661C823F71BEC008B4791 /* CollectionViewCompositionalLayoutTests.swift */; };
 		D11661D423F71BED008B4791 /* CollectionViewCompositionalLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11661D323F71BED008B4791 /* CollectionViewCompositionalLayoutUITests.swift */; };
+		D11661E223F71D89008B4791 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11661E123F71D89008B4791 /* GridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		D11661AE23F71BEA008B4791 /* CollectionViewCompositionalLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewCompositionalLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11661B123F71BEA008B4791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D11661B323F71BEA008B4791 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D11661B523F71BEA008B4791 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D11661B523F71BEA008B4791 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		D11661B823F71BEA008B4791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D11661BA23F71BEC008B4791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D11661BD23F71BEC008B4791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		D11661CF23F71BEC008B4791 /* CollectionViewCompositionalLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewCompositionalLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11661D323F71BED008B4791 /* CollectionViewCompositionalLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCompositionalLayoutUITests.swift; sourceTree = "<group>"; };
 		D11661D523F71BED008B4791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11661E123F71D89008B4791 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				D11661B123F71BEA008B4791 /* AppDelegate.swift */,
 				D11661B323F71BEA008B4791 /* SceneDelegate.swift */,
-				D11661B523F71BEA008B4791 /* ViewController.swift */,
+				D11661B523F71BEA008B4791 /* GridViewController.swift */,
+				D11661E123F71D89008B4791 /* GridCell.swift */,
 				D11661B723F71BEA008B4791 /* Main.storyboard */,
 				D11661BA23F71BEC008B4791 /* Assets.xcassets */,
 				D11661BC23F71BEC008B4791 /* LaunchScreen.storyboard */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D11661B623F71BEA008B4791 /* ViewController.swift in Sources */,
+				D11661B623F71BEA008B4791 /* GridViewController.swift in Sources */,
 				D11661B223F71BEA008B4791 /* AppDelegate.swift in Sources */,
 				D11661B423F71BEA008B4791 /* SceneDelegate.swift in Sources */,
+				D11661E223F71D89008B4791 /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
